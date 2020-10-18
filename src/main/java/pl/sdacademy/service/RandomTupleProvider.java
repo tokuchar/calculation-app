@@ -1,13 +1,11 @@
 package pl.sdacademy.service;
 
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.stereotype.Service;
 import pl.sdacademy.model.Tuple;
 
 import java.util.Random;
 
 @Slf4j
-@Service("RANDOM")
 public class RandomTupleProvider implements TupleProvider {
     @Override
     public Tuple provideTuple() {

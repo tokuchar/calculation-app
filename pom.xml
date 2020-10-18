@@ -21,6 +21,8 @@
         <mockito.version>3.3.3</mockito.version>
     </properties>
 
+    <packaging>jar</packaging>
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>

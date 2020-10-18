@@ -1,0 +1,8 @@
+{
+  "properties": [
+    {
+      "name": "random.org.url",
+      "type": "java.lang.String",
+      "description": "Description for random.org.url."
+  }
+] }
