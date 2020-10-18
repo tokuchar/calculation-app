@@ -26,6 +26,6 @@ public class CalculationApi {
     @ResponseStatus(HttpStatus.OK)
     public ResponseEntity<CalculationResponse> invokeOperation(@RequestBody CalculationRequest calculationRequest){
         log.info("calculation start :)");
-        return null;
+        return ResponseEntity.ok(calculator.doMagic(calculationRequest));
     }
 }
